@@ -18,7 +18,6 @@
   </head>
 
   <body>
-
     <div class="container-narrow">
       <div class="header">
         <ul class="nav nav-pills pull-right">
@@ -28,6 +27,8 @@
         <h3 class="text-muted">ImpressDeck</h3>
       </div>
 
+      <a href="https://github.com/dyanisse/impressdeck"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+
       <div class="jumbotron">
         <h1>share impress.js</h1>
         <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
@@ -36,30 +37,30 @@
 
       <div class="row marketing">
         <div class="col-lg-6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+          <h4>Pres1</h4>
+          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum. <a href="/demo">demo</a></p>
 
-          <h4>Subheading</h4>
+          <h4>Pres2</h4>
           <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
 
-          <h4>Subheading</h4>
+          <h4>Pres3</h4>
           <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
         </div>
 
         <div class="col-lg-6">
-          <h4>Subheading</h4>
+          <h4>Pres4</h4>
           <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
 
-          <h4>Subheading</h4>
+          <h4>Pres5</h4>
           <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
 
-          <h4>Subheading</h4>
+          <h4>Pres6</h4>
           <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
         </div>
       </div>
 
       <div class="footer">
-        <p>built by @danielyanisse</p>
+        <p>@danielyanisse</p>
       </div>
 
     </div> <!-- /container -->

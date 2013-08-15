@@ -13,7 +13,12 @@ defmodule ApplicationRouter do
   # forward "/posts", to: PostsRouter
 
   get "/" do
-    conn = conn.assign(:title, "Welcome to Dynamo!")
+    conn = conn.assign(:title, "Welcome to ImpressDeck!")
     render conn, "index.html"
+  end
+  
+  get "/demo" do
+    conn = conn.assign(:title, "impress.js demo")
+    render conn, "impress-demo.html"
   end
 end
