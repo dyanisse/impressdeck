@@ -13,8 +13,7 @@
 
     <!-- Custom styles for this template -->
     <link href="/static/css/jumbotron-narrow.css" rel="stylesheet">
-    <link rel="shortcut icon" href="/static/favicon.ico" />
-    
+    <link rel="shortcut icon" href="/static/favicon.ico" />    
   </head>
 
   <body>
@@ -32,7 +31,7 @@
       <div class="jumbotron">
         <h1>share impress.js</h1>
         <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-large btn-success" href="#">Upload yours</a></p>
+        <p><a class="btn btn-large btn-success" id="upload" href="#">Upload yours</a></p>
       </div>
 
       <div class="row marketing">
@@ -69,5 +68,15 @@
     <script src="//code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//api.filepicker.io/v1/filepicker.js"></script>
+    <script>
+    filepicker.setKey('Ao0tgC5CTs6Mi5xv7IWnrz');
+    $( "#upload" ).click(function() {
+        filepicker.pickAndStore(
+                {location:"S3"}, function(InkBlobs){
+           console.log(JSON.stringify(InkBlobs));
+        });
+    });
+    </script>
   </body>
 </html>

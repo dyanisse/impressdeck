@@ -21,4 +21,9 @@ defmodule ApplicationRouter do
     conn = conn.assign(:title, "impress.js demo")
     render conn, "impress-demo.html"
   end
+  
+  get "/node-demo" do
+    conn = conn.assign(:title, "node.js demo")
+    render conn, "node-demo.html"
+  end
 end
